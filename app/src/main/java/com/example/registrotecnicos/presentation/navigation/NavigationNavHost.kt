@@ -1,4 +1,4 @@
-package com.example.registrotecnicos.presentation.navigation
+ package com.example.registrotecnicos.presentation.navigation
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
