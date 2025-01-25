@@ -1,4 +1,4 @@
-package com.example.registrotecnicos.presentation.screens.tickets
+ package com.example.registrotecnicos.presentation.screens.tickets
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
