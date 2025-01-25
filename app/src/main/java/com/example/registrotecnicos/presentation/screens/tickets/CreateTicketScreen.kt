@@ -1,4 +1,4 @@
-package com.example.registrotecnicos.presentation.screens.tickets
+ package com.example.registrotecnicos.presentation.screens.tickets
 
 import android.app.DatePickerDialog
 import androidx.compose.foundation.BorderStroke
@@ -43,7 +43,7 @@ import java.util.Calendar
 
 
 @Composable
-fun CreateTicketScreen(
+fun   CreateTicketScreen(
     viewModel: TicketViewModel = hiltViewModel(),
     onDrawerToggle: () -> Unit,
     goToTicket: () -> Unit
