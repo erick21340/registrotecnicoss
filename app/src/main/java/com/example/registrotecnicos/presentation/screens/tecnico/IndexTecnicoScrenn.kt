@@ -1,4 +1,4 @@
-package com.example.registrotecnicos.presentation.screens.tecnico
+ package com.example.registrotecnicos.presentation.screens.tecnico
 
 
 import androidx.compose.foundation.layout.Column
