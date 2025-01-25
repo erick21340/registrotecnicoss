@@ -1,4 +1,4 @@
-package com.example.registrotecnicos.presentation.screens.home
+ package com.example.registrotecnicos.presentation.screens.home
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
