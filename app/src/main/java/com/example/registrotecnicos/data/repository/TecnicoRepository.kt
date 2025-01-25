@@ -4,7 +4,7 @@ import com.example.registrotecnicos.data.local.dao.TecnicoDao
 import com.example.registrotecnicos.data.local.entities.TecnicoEntity
 import javax.inject.Inject
 
-class TecnicoRepository @Inject constructor(
+class  TecnicoRepository @Inject constructor(
     private val tecnicoDao: TecnicoDao
 ) {
     suspend fun save(ticket: TecnicoEntity) = tecnicoDao.save(ticket)
