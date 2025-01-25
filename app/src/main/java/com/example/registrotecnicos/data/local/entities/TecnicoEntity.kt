@@ -9,4 +9,4 @@ data class TecnicoEntity(
     val tecnicoId: Int? = null,
     val tecnico: String = "",
     val sueldo: Double = 0.0
-) 
+)
