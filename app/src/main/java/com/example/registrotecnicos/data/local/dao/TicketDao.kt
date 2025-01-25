@@ -9,7 +9,7 @@ import com.example.registrotecnicos.data.local.entities.TicketEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
-interface TicketDao {
+interface  TicketDao {
     @Upsert
     suspend fun save(ticket: TicketEntity)
 
