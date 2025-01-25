@@ -9,7 +9,7 @@ import com.example.registrotecnicos.data.local.entities.TecnicoEntity
 import kotlinx.coroutines.flow.Flow
 
 @Dao
-interface TecnicoDao {
+interface  TecnicoDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun save(tecnico: TecnicoEntity)
 
