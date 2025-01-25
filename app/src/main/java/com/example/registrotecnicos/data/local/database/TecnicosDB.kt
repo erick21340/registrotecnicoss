@@ -15,7 +15,7 @@ import com.example.registrotecnicos.data.local.entities.TicketEntity
     version = 2,
     exportSchema = false
 )
-abstract class TecnicosDB : RoomDatabase() {
+abstract class  TecnicosDB : RoomDatabase() {
     abstract fun tecnicoDao(): TecnicoDao
     abstract fun ticketDao(): TicketDao
 }
