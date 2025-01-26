@@ -29,5 +29,7 @@ object  AppModule {
 
     @Provides
     fun provideTicketDao(tecnicosDB: TecnicosDB) = tecnicosDB.ticketDao()
-
+    @Provides
+    @Singleton
+    fun provideMensajeDao(appDataDb: TecnicosDB) = appDataDb.mensajeDao()
 }
