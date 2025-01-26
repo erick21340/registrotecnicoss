@@ -83,6 +83,8 @@ fun NavigationDrawer(
                         MenuItem("Inicio", Icons.Default.Home),
                         MenuItem("Tecnicos", Icons.Default.DateRange),
                         MenuItem("Tickets", Icons.Default.MailOutline),
+                        MenuItem("Mensaje", Icons.Default.MailOutline)
+
                     )
 
                     items(menuItems.size) { index ->
