@@ -1,4 +1,4 @@
- package com.example.registrotecnicos.presentation.navigation
+package com.example.registrotecnicos.presentation.navigation
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -11,6 +11,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import com.example.registrotecnicos.presentation.component.NavigationDrawer
 import com.example.registrotecnicos.presentation.screens.home.HomeScreen
+import com.example.registrotecnicos.presentation.screens.responde.MensajeScreen
 import com.example.registrotecnicos.presentation.screens.tecnico.IndexTecnicoScreen
 import com.example.registrotecnicos.presentation.screens.tickets.CreateTicketScreen
 import com.example.registrotecnicos.presentation.screens.tickets.DeleteTicketsScreen
@@ -104,6 +105,16 @@ fun NavigationNavHost(
                 }
             }
 
+            composable<Screen.IndexmensajeCreen> {
+                MensajeScreen(
+
+                    onDrawerToggle = {
+
+                        isDrawerVisible.value = !isDrawerVisible.value
+                    }
+                )
+            }
+
         }
     }
 
@@ -118,6 +129,7 @@ fun NavigationNavHost(
                 "Inicio" -> navHostController.navigate(Screen.HomeScreen)
                 "Tecnicos" -> navHostController.navigate(Screen.IndexTecnicoScreen)
                 "Tickets" -> navHostController.navigate(Screen.IndexTicketScreen)
+                "Mensaje" -> navHostController.navigate(Screen.IndexmensajeCreen)
             }
             isDrawerVisible.value = false
         },
@@ -126,5 +138,3 @@ fun NavigationNavHost(
         }
     )
 }
-
-
