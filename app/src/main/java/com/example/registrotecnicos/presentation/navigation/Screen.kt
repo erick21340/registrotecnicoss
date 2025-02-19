@@ -20,6 +20,20 @@ sealed class  Screen {
     data class EditTicketScreen(val ticketId: Int?) : Screen()
     @Serializable
     data class DeleteTicketScreen(val ticketId: Int?) : Screen()
+
+    //Articulos
+    @Serializable
+    data object IndexArticulosScreen : Screen()
+    @Serializable
+    data object CreateArticulosScreen : Screen()
+    @Serializable
+    data class EditArticulosScreen(val ticketId: Int?) : Screen()
+    @Serializable
+    data class DeleteArticulosScreen(val ticketId: Int?) : Screen()
+
+
     @Serializable
     data object IndexmensajeCreen: Screen()
+
+
 }
