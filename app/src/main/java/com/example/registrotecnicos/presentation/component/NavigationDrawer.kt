@@ -18,6 +18,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AccountBox
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.MailOutline
@@ -83,6 +84,9 @@ fun NavigationDrawer(
                         MenuItem("Inicio", Icons.Default.Home),
                         MenuItem("Tecnicos", Icons.Default.DateRange),
                         MenuItem("Tickets", Icons.Default.MailOutline),
+                        MenuItem("Mensaje", Icons.Default.MailOutline),
+                        MenuItem("Articulos", Icons.Default.AccountBox)
+
                     )
 
                     items(menuItems.size) { index ->
